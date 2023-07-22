@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Tektur&display=swap');
+
 body{
     background-color: rgb(34,34,34);
     color: white;
@@ -19,12 +22,13 @@ header{
 #title{
     flex-direction: column;
     line-height: 10px;
+    text-align: justify;
     
 }
 
 h1{
     font-weight: 100;
-    font-family:'Times New Roman', Times, serif
+    font-family: 'Share Tech Mono', monospace;
 }
 
 li{
@@ -42,7 +46,7 @@ a{
 
 a:hover{
     color: rgb(14, 201, 170);
-    transition: 0.3s all;
+    transition: 0.6s all;
     
 
 
@@ -54,13 +58,15 @@ h1{
 }
 
 main{
+    margin-bottom: 48px;
+    border-top: 1px solid #fff2e7;
     display: flex;
     flex-direction: row;
-    margin-top: 50px
+    
 }
 
 h2{
-    font-size: 56px;
+    font-size: 66px;
     line-height: 10px;
     font-family: fantasy;
     line-height: 20px;
@@ -106,8 +112,12 @@ input{
 
 }
 
-img{
-    width: 500px;
-    border-radius: 500px;
-    box-shadow: rgb(34,34,34,5,5);
+
+footer{
+
+    border-top: 1px solid white;
+    display: block;
+    margin:0 auto
+
+    
 }
